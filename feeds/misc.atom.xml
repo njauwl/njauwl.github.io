@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>索尔日记</title><link href="/" rel="alternate"></link><link href="/feeds/all-en.atom.xml" rel="self"></link><id>/</id><updated>2017-01-25T16:15:00+08:00</updated><entry><title>家庭空气质量监测DIY</title><link href="/./my-super-post.html" rel="alternate"></link><published>2017-01-25T16:15:00+08:00</published><author><name>wanglei</name></author><id>tag:,2017-01-25:./my-super-post.html</id><summary type="html">&lt;p&gt;这是我的第一篇博客。&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>索尔日记</title><link href="/" rel="alternate"></link><link href="/feeds/misc.atom.xml" rel="self"></link><id>/</id><updated>2017-01-25T16:15:00+08:00</updated><entry><title>家庭空气质量监测DIY</title><link href="/./my-super-post.html" rel="alternate"></link><published>2017-01-25T16:15:00+08:00</published><author><name>wanglei</name></author><id>tag:,2017-01-25:./my-super-post.html</id><summary type="html">&lt;p&gt;这是我的第一篇博客。&lt;/p&gt;
 &lt;h1&gt;家庭空气质量监测DIY&lt;/h1&gt;
 &lt;h2&gt;总体设计&lt;/h2&gt;
 &lt;p&gt;宝宝出生后，便更注意屋里的空气质量，于是决定DIY一个空气监测的模块，实时监测空气质量，从而让家里领导为宝宝开窗通气等提供数据支持
@@ -27,4 +27,4 @@
 &lt;p&gt;&lt;img alt="数据" src="qx.jpg" /&gt;
  还可以输入日期时间查询历史的数据&lt;/p&gt;
 &lt;p&gt;&lt;img alt="datetime" src="date.jpg" /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img alt="time" src="time.jpg" /&gt;&lt;/p&gt;</summary><category term="web"></category></entry><entry><title>Introduce</title><link href="/./my-super-post.html" rel="alternate"></link><published>2016-12-24T10:20:00+08:00</published><author><name>wanglei</name></author><id>tag:,2016-12-24:./my-super-post.html</id><summary type="html">&lt;p&gt;这是我的第一篇博客。&lt;/p&gt;</summary><category term="pelican"></category><category term="publishing"></category></entry></feed>
+&lt;p&gt;&lt;img alt="time" src="time.jpg" /&gt;&lt;/p&gt;</summary><category term="web"></category></entry></feed>
