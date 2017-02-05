@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>索尔日记</title><link>/</link><description>一个有料的地方</description><lastBuildDate>Sun, 05 Feb 2017 20:30:00 +0800</lastBuildDate><item><title>家庭空气监测DIY</title><link>/jia-ting-kong-qi-jian-ce-diy.html</link><description>&lt;h1&gt;家庭空气质量监测DIY&lt;/h1&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>索尔日记</title><link href="/" rel="alternate"></link><link href="/feeds/wu-lian-wang.atom.xml" rel="self"></link><id>/</id><updated>2017-02-05T20:30:00+08:00</updated><entry><title>家庭空气监测DIY</title><link href="/jia-ting-kong-qi-jian-ce-diy.html" rel="alternate"></link><published>2017-02-05T20:30:00+08:00</published><author><name>wanglei</name></author><id>tag:,2017-01-26:jia-ting-kong-qi-jian-ce-diy.html</id><summary type="html">&lt;h1&gt;家庭空气质量监测DIY&lt;/h1&gt;
 &lt;h2&gt;总体设计&lt;/h2&gt;
 &lt;p&gt;宝宝出生后，更注意屋里的空气质量，于是决定DIY一个空气监测的模块，实时监测空气质量，从而让家里领导为宝宝开窗通气等提供数据支持
 &lt;img alt="总体框图" src="./diy-air-monitor.jpg" /&gt;&lt;/p&gt;
@@ -27,4 +27,4 @@
  还可以输入日期时间查询历史的数据&lt;/p&gt;
 &lt;p&gt;&lt;img alt="datetime" src="date.jpg" /&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img alt="time" src="time.jpg" /&gt;&lt;/p&gt;
-&lt;p&gt;系统完善后，请静待开源。。。&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">wanglei</dc:creator><pubDate>Sun, 05 Feb 2017 20:30:00 +0800</pubDate><guid isPermaLink="false">tag:,2017-01-26:jia-ting-kong-qi-jian-ce-diy.html</guid><category>python</category><category>web</category></item><item><title>简介</title><link>/my-super-post.html</link><description>&lt;p&gt;这是我的第一篇博客。&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">wanglei</dc:creator><pubDate>Sat, 24 Dec 2016 10:20:00 +0800</pubDate><guid isPermaLink="false">tag:,2016-12-24:my-super-post.html</guid><category>life</category></item></channel></rss>
+&lt;p&gt;系统完善后，请静待开源。。。&lt;/p&gt;</summary><category term="python"></category><category term="web"></category></entry></feed>

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" prefix="og: http://ogp.me/ns# fb: https://www.facebook.com/2008/fbml">
 <head>
-    <title>简介 - 索尔日记</title>
+    <title>家庭空气监测DIY - 索尔日记</title>
     <!-- Using the latest rendering mode for IE -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta charset="utf-8">
@@ -9,20 +9,21 @@
 
 
 
-<link rel="canonical" href="/my-super-post.html">
+<link rel="canonical" href="/jia-ting-kong-qi-jian-ce-diy.html">
 
         <meta name="author" content="wanglei" />
-        <meta name="keywords" content="life" />
-        <meta name="description" content="博客简介" />
+        <meta name="keywords" content="python,web" />
+        <meta name="description" content="通过浏览器查看终端采集的空气质量数值" />
 
         <meta property="og:site_name" content="索尔日记" />
         <meta property="og:type" content="article"/>
-        <meta property="og:title" content="简介"/>
-        <meta property="og:url" content="/my-super-post.html"/>
-        <meta property="og:description" content="博客简介"/>
-        <meta property="article:published_time" content="2016-12-24" />
-            <meta property="article:section" content="随笔" />
-            <meta property="article:tag" content="life" />
+        <meta property="og:title" content="家庭空气监测DIY"/>
+        <meta property="og:url" content="/jia-ting-kong-qi-jian-ce-diy.html"/>
+        <meta property="og:description" content="通过浏览器查看终端采集的空气质量数值"/>
+        <meta property="article:published_time" content="2017-01-26" />
+            <meta property="article:section" content="物联网" />
+            <meta property="article:tag" content="python" />
+            <meta property="article:tag" content="web" />
             <meta property="article:author" content="wanglei" />
 
 
@@ -38,8 +39,8 @@
 
 
 
-        <link href="/feeds/sui-bi.atom.xml" type="application/atom+xml" rel="alternate"
-              title="索尔日记 随笔 ATOM Feed"/>
+        <link href="/feeds/wu-lian-wang.atom.xml" type="application/atom+xml" rel="alternate"
+              title="索尔日记 物联网 ATOM Feed"/>
 
 </head>
 <body>
@@ -58,10 +59,10 @@
         </div>
         <div class="collapse navbar-collapse navbar-ex1-collapse">
             <ul class="nav navbar-nav">
-                        <li class="active">
+                        <li >
                             <a href="/category/sui-bi.html">随笔</a>
                         </li>
-                        <li >
+                        <li class="active">
                             <a href="/category/wu-lian-wang.html">物联网</a>
                         </li>
             </ul>
@@ -80,10 +81,10 @@
         <article>
             <header class="page-header">
                 <h1>
-                    <a href="/my-super-post.html"
+                    <a href="/jia-ting-kong-qi-jian-ce-diy.html"
                        rel="bookmark"
-                       title="Permalink to 简介">
-                        简介
+                       title="Permalink to 家庭空气监测DIY">
+                        家庭空气监测DIY
                     </a>
                 </h1>
             </header>
@@ -93,7 +94,7 @@
 <footer class="post-info">
     <span class="label label-default">Date</span>
     <span class="published">
-        <i class="fa fa-calendar"></i><time datetime="2016-12-24T10:20:00+08:00"> 六 24 十二月 2016</time>
+        <i class="fa fa-calendar"></i><time datetime="2017-01-26T10:20:00+08:00"> 四 26 一月 2017</time>
     </span>
 
 
@@ -101,11 +102,41 @@
 
 
 <span class="label label-default">Tags</span>
-	<a href="/tag/life.html">life</a>
+	<a href="/tag/python.html">python</a>
+        /
+	<a href="/tag/web.html">web</a>
     
 </footer><!-- /.post-info -->                    </div>
                 </div>
-                <p>这是我的第一篇博客。</p>
+                <h1>家庭空气质量监测DIY</h1>
+<h2>总体设计</h2>
+<p>宝宝出生后，更注意屋里的空气质量，于是决定DIY一个空气监测的模块，实时监测空气质量，从而让家里领导为宝宝开窗通气等提供数据支持
+<img alt="总体框图" src="./diy-air-monitor.jpg" /></p>
+<h2>材料准备</h2>
+<ul>
+<li>甲醛传感器
+    <a href="https://s.taobao.com/search?ie=utf8&amp;initiative_id=staobaoz_20170124&amp;stats_click=search_radio_all%3A1&amp;js=1&amp;imgfile=&amp;q=%E7%94%B2%E9%86%9B%E4%BC%A0%E6%84%9F%E5%99%A8%E6%A8%A1%E5%9D%97&amp;suggest=0_2&amp;_input_charset=utf-8&amp;wq=%E7%94%B2%E9%86%9B%E4%BC%A0%E6%84%9F%E5%99%A8&amp;suggest_query=%E7%94%B2%E9%86%9B%E4%BC%A0%E6%84%9F%E5%99%A8&amp;source=suggest">淘宝</a>选了一个价格偏宜的,如下：
+<img alt="甲醛传感器" src="jq.jpg" /></li>
+<li>WiFi模块
+    <a href="https://item.taobao.com/item.htm?spm=a1z09.2.0.0.O0MK4J&amp;id=529131132391&amp;_u=omgj60296a4">淘宝</a></li>
+<li>MCU
+    <a href="https://detail.tmall.com/item.htm?id=44399907495&amp;spm=a1z09.2.0.0.O0MK4J&amp;_u=omgj602ab96">淘宝链接</a></li>
+</ul>
+<h2>数据采集终端组装及软件设计</h2>
+<p><img alt="数据采集终端" src="zzr.jpg" /></p>
+<h2>网站搭建</h2>
+<p>去年购买的VPS一直没有用，于是这次用来搭建这简单的小网站，没有申请域名，暂时用IP地址<a href="http://45.62.104.16">http://45.62.104.16</a>访问</p>
+<h2>使用体验</h2>
+<p>晚上睡前，插上USB线供电后，数据采集终端就会不断采集空气质量数值并上传到云端数据库。
+ <img alt="数据采集终端" src="zz.jpg" />
+ 第二天早上醒来，在浏览器输入<a href="http://45.62.104.16">http://45.62.104.16</a>，并用之前注册的账号登录，就可以看到与账号绑定的设备采集的数据。</p>
+<p><img alt="登录" src="dl.jpg" /></p>
+<p>最近12小时采集的数据如下</p>
+<p><img alt="数据" src="qx.jpg" />
+ 还可以输入日期时间查询历史的数据</p>
+<p><img alt="datetime" src="date.jpg" /></p>
+<p><img alt="time" src="time.jpg" /></p>
+<p>系统完善后，请静待开源。。。</p>
             </div>
             <!-- /.entry-content -->
         </article>
