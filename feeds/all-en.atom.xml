@@ -2,29 +2,29 @@
 <feed xmlns="http://www.w3.org/2005/Atom"><title>索尔日记</title><link href="/" rel="alternate"></link><link href="/feeds/all-en.atom.xml" rel="self"></link><id>/</id><updated>2017-02-05T20:30:00+08:00</updated><entry><title>家庭空气监测DIY</title><link href="/jia-ting-kong-qi-jian-ce-diy.html" rel="alternate"></link><published>2017-02-05T20:30:00+08:00</published><author><name>wanglei</name></author><id>tag:,2017-01-26:jia-ting-kong-qi-jian-ce-diy.html</id><summary type="html">&lt;h1&gt;家庭空气质量监测DIY&lt;/h1&gt;
 &lt;h2&gt;总体设计&lt;/h2&gt;
 &lt;p&gt;宝宝出生后，更注意屋里的空气质量，于是决定DIY一个空气监测的模块，实时监测空气质量，从而让家里领导为宝宝开窗通气等提供数据支持
-&lt;img alt="总体框图" src="./diy-air-monitor.jpg" /&gt;&lt;/p&gt;
+&lt;img alt="总体框图" src="./resource/diy-air-monitor.jpg" /&gt;&lt;/p&gt;
 &lt;h2&gt;材料准备&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;甲醛传感器
     &lt;a href="https://s.taobao.com/search?ie=utf8&amp;amp;initiative_id=staobaoz_20170124&amp;amp;stats_click=search_radio_all%3A1&amp;amp;js=1&amp;amp;imgfile=&amp;amp;q=%E7%94%B2%E9%86%9B%E4%BC%A0%E6%84%9F%E5%99%A8%E6%A8%A1%E5%9D%97&amp;amp;suggest=0_2&amp;amp;_input_charset=utf-8&amp;amp;wq=%E7%94%B2%E9%86%9B%E4%BC%A0%E6%84%9F%E5%99%A8&amp;amp;suggest_query=%E7%94%B2%E9%86%9B%E4%BC%A0%E6%84%9F%E5%99%A8&amp;amp;source=suggest"&gt;淘宝&lt;/a&gt;选了一个价格偏宜的,如下：
-&lt;img alt="甲醛传感器" src="jq.jpg" /&gt;&lt;/li&gt;
+&lt;img alt="甲醛传感器" src="./resource/jq.jpg" /&gt;&lt;/li&gt;
 &lt;li&gt;WiFi模块
     &lt;a href="https://item.taobao.com/item.htm?spm=a1z09.2.0.0.O0MK4J&amp;amp;id=529131132391&amp;amp;_u=omgj60296a4"&gt;淘宝&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;MCU
     &lt;a href="https://detail.tmall.com/item.htm?id=44399907495&amp;amp;spm=a1z09.2.0.0.O0MK4J&amp;amp;_u=omgj602ab96"&gt;淘宝链接&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2&gt;数据采集终端组装及软件设计&lt;/h2&gt;
-&lt;p&gt;&lt;img alt="数据采集终端" src="zzr.jpg" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="数据采集终端" src="./resource/zzr.jpg" /&gt;&lt;/p&gt;
 &lt;h2&gt;网站搭建&lt;/h2&gt;
 &lt;p&gt;去年购买的VPS一直没有用，于是这次用来搭建这简单的小网站，没有申请域名，暂时用IP地址&lt;a href="http://45.62.104.16"&gt;http://45.62.104.16&lt;/a&gt;访问&lt;/p&gt;
 &lt;h2&gt;使用体验&lt;/h2&gt;
 &lt;p&gt;晚上睡前，插上USB线供电后，数据采集终端就会不断采集空气质量数值并上传到云端数据库。
- &lt;img alt="数据采集终端" src="zz.jpg" /&gt;
+ &lt;img alt="数据采集终端" src="./resource/zz.jpg" /&gt;
  第二天早上醒来，在浏览器输入&lt;a href="http://45.62.104.16"&gt;http://45.62.104.16&lt;/a&gt;，并用之前注册的账号登录，就可以看到与账号绑定的设备采集的数据。&lt;/p&gt;
-&lt;p&gt;&lt;img alt="登录" src="dl.jpg" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="登录" src="./resource/dl.jpg" /&gt;&lt;/p&gt;
 &lt;p&gt;最近12小时采集的数据如下&lt;/p&gt;
-&lt;p&gt;&lt;img alt="数据" src="qx.jpg" /&gt;
+&lt;p&gt;&lt;img alt="数据" src="./resource/qx.jpg" /&gt;
  还可以输入日期时间查询历史的数据&lt;/p&gt;
-&lt;p&gt;&lt;img alt="datetime" src="date.jpg" /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img alt="time" src="time.jpg" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="datetime" src="./resource/date.jpg" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="time" src="./resource/time.jpg" /&gt;&lt;/p&gt;
 &lt;p&gt;系统完善后，请静待开源。。。&lt;/p&gt;</summary><category term="python"></category><category term="web"></category></entry><entry><title>简介</title><link href="/my-super-post.html" rel="alternate"></link><published>2016-12-24T10:20:00+08:00</published><author><name>wanglei</name></author><id>tag:,2016-12-24:my-super-post.html</id><summary type="html">&lt;p&gt;这是我的第一篇博客。&lt;/p&gt;</summary><category term="life"></category></entry></feed>
